@@ -1,0 +1,37 @@
+*{
+   box-sizing: border-box; 
+   margin: 0px;
+   padding: 0px;
+}
+body{
+    background-color: #ddd7d7;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.counters{
+    display: flex;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    font-size:xx-large;
+    font-weight:600;
+    padding: 40px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.orange{
+   border-bottom: 5px solid orange; 
+}
+.green{
+   border-bottom: 5px solid green; 
+}
+.violet{
+   border-bottom: 5px solid rgb(190, 99, 190); 
+}
